@@ -1,0 +1,105 @@
+.attribution {position: absolute;top: 0;left: 50%; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+
+body {
+    height: 100vh;
+    width: 100vh;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background:hsl(185, 75%, 39%) ;
+    background-image: url(./images/bg-pattern-top.svg) ,url(./images/bg-pattern-bottom.svg) ;
+    background-position: left -200px  top -200px ,right -200px bottom -200px;
+    background-repeat: no-repeat;
+
+}
+.card {
+    height: 375px;
+    width: 350px;
+    border-radius: 25px;
+    background-color: #fff;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.card .head {
+    height:150px;
+    width:100%;
+    background-image: url(./images/bg-pattern-card.svg);
+    border-radius: 25px 25px 0  0;
+    -webkit-border-radius: 25px 25px 0  0;
+    -moz-border-radius: 25px 25px 0  0;
+    -ms-border-radius: 25px 25px 0  0;
+    -o-border-radius: 25px 25px 0  0; 
+}
+
+img{
+    margin:0px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    border: 3px solid white;
+    position: relative;
+    top:-50px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+h3,h4 {
+    text-align: center;
+    color:hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+h3{
+    margin-top: -40px;
+
+}
+h4{
+    margin-bottom: 20px;
+}
+h3 span {
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+}
+.contet {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+ul {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+display: flex;
+flex-direction: column;
+text-align: center;
+    color: hsl(227, 10%, 46%);  
+}
+ul li span {
+    color:hsl(229, 23%, 23%);
+    font-weight: 700;
+}
